@@ -46,6 +46,7 @@ botonImagen.addEventListener('click', cambiarImagen);
 
 articulo.insertBefore(botonImagen, primerBoton);
   }
+// Parte Del append un texto se crean fuera de los div centrados.
 const section = document.querySelector('section');
 
 const newDiv = document.createElement('div');
